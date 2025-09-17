@@ -1,7 +1,7 @@
 <nav class="navbar navbar-expand-lg fixed-top">
   <div class="container-fluid">
     <a class="navbar-brand" href="/">
-      <img src="/images/nav_banner.png" alt="Banner">
+      <img src="/images/nav_banner.png" alt="Logotipo do projeto Infoviva">
     </a>
     <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
       aria-controls="offcanvasNavbar">

@@ -366,10 +366,8 @@ body {
 }
 
 .info-list li {
-  margin-bottom: 0.8rem;
+  margin-bottom: 1rem;
 }
-
-
 
 @media (max-width: 1080px) {
   .info-section {
@@ -377,13 +375,15 @@ body {
     gap: 3rem;
   }
 
+    .info-title {
+        font-size: clamp(3rem, 5vw, 4.5rem);
+        margin-bottom: 2rem;
+        font-weight: bold;
+    }
+
   .info-box {
     flex: 1 1 100%;
-    font-size: clamp(1.2rem, 4vw, 1.6rem);
-  }
-
-  .point {
-    display: none; /* sem setas no mobile */
+    font-size: clamp(2rem, 4vw, 3.5rem);
   }
 }
 
@@ -502,6 +502,23 @@ main {
     }
 }
 
+/* VLibras responsivo */
+@media (max-width: 1080px) {
+  /* Botão */
+  body .vwblibras .vw-access-button.active {
+    bottom: auto !important;
+    top: 10px !important;
+    right: 10px !important;
+  }
+
+  /* Janela do player */
+  body .vwblibras .vw-plugin-wrapper {
+    width: 90% !important;
+    height: 60% !important;
+    max-width: 100% !important;
+    max-height: 80% !important;
+  }
+}
 
 footer {
     display: flex;

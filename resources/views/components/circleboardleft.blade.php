@@ -1,6 +1,6 @@
 <section class="circleboard">
 <div class="circle-image">
-        <img src="/images/profile/{{ $imagePath }}" />
+        <img src="/images/profile/{{ $imagePath }}" alt={{ $title }}/>
     </div>
     <div class="circleboard-textboard">
         <section class="circleboard-section">
